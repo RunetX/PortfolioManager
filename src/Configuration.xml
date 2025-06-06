@@ -258,6 +258,7 @@
 			<Subsystem>НСИ</Subsystem>
 			<CommonModule>УП_КоннекторHTTP</CommonModule>
 			<CommonModule>УП_ОбщегоНазначения</CommonModule>
+			<CommonForm>УП_ЗагрузчикПортфеля</CommonForm>
 			<Catalog>УП_БиржевыеИнструменты</Catalog>
 			<Catalog>УП_Индексы</Catalog>
 			<Catalog>УП_Портфели</Catalog>

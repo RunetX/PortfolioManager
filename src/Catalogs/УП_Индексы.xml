@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
-	<Catalog uuid="699c07e4-469a-44f7-b449-3f10566b23bc">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="821c03fc-dc27-47f5-ae7b-eb6add11592b">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.УП_Индексы" category="Object">
-				<xr:TypeId>1978cb5a-56fe-4d8e-b0e6-386324aa17a2</xr:TypeId>
-				<xr:ValueId>99612322-d174-49b8-ae98-875d60c20972</xr:ValueId>
+				<xr:TypeId>ad98b7e7-e7f1-4d48-9ca2-d9863005b891</xr:TypeId>
+				<xr:ValueId>69a33766-ce0d-4ff7-be6a-69a227d8e0bc</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.УП_Индексы" category="Ref">
-				<xr:TypeId>33a6567c-9cfe-4114-a1d7-1d6b3769a406</xr:TypeId>
-				<xr:ValueId>15ef5f97-1049-48da-bc1e-04aa8f4a9be3</xr:ValueId>
+				<xr:TypeId>9eda7e11-f98c-4b43-b124-d9a153c12d05</xr:TypeId>
+				<xr:ValueId>60998c3c-ed63-4206-a754-7ccb077fbf2e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.УП_Индексы" category="Selection">
-				<xr:TypeId>69341810-da62-43b8-941d-7a07feddc298</xr:TypeId>
-				<xr:ValueId>77755886-615f-4cc4-9ffc-17a2edef0d5b</xr:ValueId>
+				<xr:TypeId>02486380-5409-4f17-a645-8897f395c7be</xr:TypeId>
+				<xr:ValueId>0fe47215-aa01-4a49-98af-0636b011dca5</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.УП_Индексы" category="List">
-				<xr:TypeId>2b237bbd-138b-48e4-acce-f0bbc331ce0e</xr:TypeId>
-				<xr:ValueId>a42df80c-702a-48d5-9c94-e6f519e0d121</xr:ValueId>
+				<xr:TypeId>fd8c938e-7500-4fb8-828f-550871347f45</xr:TypeId>
+				<xr:ValueId>1bc66c78-cce4-4c7b-92fd-a95fca35290d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.УП_Индексы" category="Manager">
-				<xr:TypeId>dde48e06-9144-4601-9d02-e91e60581ecc</xr:TypeId>
-				<xr:ValueId>bf815839-7d8d-4f89-817f-b5e65994cc18</xr:ValueId>
+				<xr:TypeId>4d964f6b-56fd-4c63-84b4-ad405821d22c</xr:TypeId>
+				<xr:ValueId>2fc32e9d-f537-4f44-af5f-cf3905135bb1</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -46,7 +46,7 @@
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
 			<CheckUnique>true</CheckUnique>
-			<Autonumbering>true</Autonumbering>
+			<Autonumbering>false</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<StandardAttributes>
 				<xr:StandardAttribute name="PredefinedDataName">
@@ -332,7 +332,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="63d194ce-bf1e-4a1b-95d9-74829aaade3b">
+			<Attribute uuid="74ded00a-a5db-4d04-8381-eb824ad454d0">
 				<Properties>
 					<Name>Тип</Name>
 					<Synonym>
@@ -372,15 +372,15 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="66b18960-bf38-4644-9c1b-9057a12ac73d">
+			<TabularSection uuid="a6219265-3963-4292-bb5a-97663861611f">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.УП_Индексы.Состав" category="TabularSection">
-						<xr:TypeId>0f63f29d-a838-449c-b365-0ef3f4eea87e</xr:TypeId>
-						<xr:ValueId>b0039afb-4b14-4489-b6dd-702f76015225</xr:ValueId>
+						<xr:TypeId>0398bb52-ce1e-4f57-937e-c0c448b77c07</xr:TypeId>
+						<xr:ValueId>7d7e1b9e-7d43-4e73-994a-b30f9e153881</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="CatalogTabularSectionRow.УП_Индексы.Состав" category="TabularSectionRow">
-						<xr:TypeId>12cfc2dd-1aaa-4db4-b6d7-da9058c6fcfd</xr:TypeId>
-						<xr:ValueId>e8c0695a-3fb3-435b-8953-6e3d8b34f57a</xr:ValueId>
+						<xr:TypeId>4201e60c-7cbe-4544-811f-6a3ffc5a5e92</xr:TypeId>
+						<xr:ValueId>5e922d11-1f49-4226-a8f7-035c78ebf7da</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -394,11 +394,39 @@
 					<Comment/>
 					<ToolTip/>
 					<FillChecking>DontCheck</FillChecking>
+					<StandardAttributes>
+						<xr:StandardAttribute name="LineNumber">
+							<xr:LinkByType/>
+							<xr:FillChecking>DontCheck</xr:FillChecking>
+							<xr:MultiLine>false</xr:MultiLine>
+							<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+							<xr:CreateOnInput>Auto</xr:CreateOnInput>
+							<xr:TypeReductionMode>TransformValues</xr:TypeReductionMode>
+							<xr:MaxValue xsi:nil="true"/>
+							<xr:ToolTip/>
+							<xr:ExtendedEdit>false</xr:ExtendedEdit>
+							<xr:Format/>
+							<xr:ChoiceForm/>
+							<xr:QuickChoice>Auto</xr:QuickChoice>
+							<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+							<xr:EditFormat/>
+							<xr:PasswordMode>false</xr:PasswordMode>
+							<xr:DataHistory>Use</xr:DataHistory>
+							<xr:MarkNegatives>false</xr:MarkNegatives>
+							<xr:MinValue xsi:nil="true"/>
+							<xr:Synonym/>
+							<xr:Comment/>
+							<xr:FullTextSearch>Use</xr:FullTextSearch>
+							<xr:ChoiceParameterLinks/>
+							<xr:FillValue xsi:nil="true"/>
+							<xr:Mask/>
+							<xr:ChoiceParameters/>
+						</xr:StandardAttribute>
+					</StandardAttributes>
 					<Use>ForItem</Use>
-					<LineNumberLength>9</LineNumberLength>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="0b25613c-2a01-4e8d-8c21-0308ca066db0">
+					<Attribute uuid="cbe92d7a-70ca-4b74-a054-05f10f5aa218">
 						<Properties>
 							<Name>Инструмент</Name>
 							<Synonym>
@@ -435,7 +463,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="19bd77cf-bc00-473b-9aea-1e129d3b2d6a">
+					<Attribute uuid="34cc6321-014c-4840-a3fb-f7d279093389">
 						<Properties>
 							<Name>Вес</Name>
 							<Synonym>

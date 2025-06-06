@@ -27,9 +27,7 @@ def start():
 
 
 def dump(custom_path=None):
-    pie.dump_ext(ext_map={"УправлениеПортфелями83": "src"}, ib=_ib(custom_path))
-    ext_src = pie.src.ExtSrc("src", copy=False)
-    versioning.clear_version_info(ext_src)
+    pie.dump_src(src="src", ib=_ib(custom_path))
 
 
 def dump_zup(custom_path=None):

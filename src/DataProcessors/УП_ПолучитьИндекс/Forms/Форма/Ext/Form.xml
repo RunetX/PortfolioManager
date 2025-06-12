@@ -40,6 +40,7 @@
 			<Representation>List</Representation>
 			<HorizontalLines>false</HorizontalLines>
 			<VerticalLines>false</VerticalLines>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
@@ -83,7 +84,13 @@
 					<ExtendedTooltip name="ИтоговаяТаблицаНаименованиеРасширеннаяПодсказка" id="21"/>
 				</InputField>
 				<InputField name="ИтоговаяТаблицаТикер" id="22">
-					<DataPath>ИтоговаяТаблица.Тикер</DataPath>
+					<DataPath>ИтоговаяТаблица.Инструмент.Code</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тикер</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ИтоговаяТаблицаТикерКонтекстноеМеню" id="23"/>
@@ -147,16 +154,6 @@
 					<Type>UsualButton</Type>
 					<CommandName>Form.Command.ПолучитьИндекс</CommandName>
 					<ExtendedTooltip name="ПолучитьИндексРасширеннаяПодсказка" id="2"/>
-				</Button>
-				<Button name="ЗаполнитьИнструменты" id="50">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ЗаполнитьИнструменты</CommandName>
-					<ExtendedTooltip name="ЗаполнитьИнструментыРасширеннаяПодсказка" id="51"/>
-				</Button>
-				<Button name="ТестАпи" id="56">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ТестАпи</CommandName>
-					<ExtendedTooltip name="ТестАпиРасширеннаяПодсказка" id="57"/>
 				</Button>
 				<Button name="ЗаполнитьЦены" id="60">
 					<Type>UsualButton</Type>
@@ -330,36 +327,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПолучитьИндекс</Action>
-		</Command>
-		<Command name="ЗаполнитьИнструменты" id="2">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Заполнить инструменты</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Заполнить инструменты</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ЗаполнитьИнструменты</Action>
-		</Command>
-		<Command name="ТестАпи" id="3">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Тест API</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Тест апи</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ТестАпи</Action>
 		</Command>
 		<Command name="ЗаполнитьЦены" id="4">
 			<Title>

@@ -58,11 +58,7 @@ def dump_test():
 #def load():
 #    pie.load_ext(ext_list=["src"], update=False, ib=_ib())
 def load(custom_path=None, to_update=False):
-    #version_info = versioning.git_version()
-
-    with pie.src.ExtSrc("src") as ext_src:
-        #versioning.set_version_info(ext_src, version_info)
-        pie.load_ext(ext_list=[str(ext_src)], update=to_update, ib=_ib_zup(custom_path))
+    pie.load_src(src="src", ib=_ib(custom_path))
 
 def load_zup(custom_path=None, to_update=False):
     version_info = versioning.git_version()

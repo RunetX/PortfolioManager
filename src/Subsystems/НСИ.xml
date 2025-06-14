@@ -19,11 +19,11 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.УП_БиржевыеИнструменты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.УП_Портфели</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.УП_Индексы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УП_ЦеныИнструментов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УП_КлиентМосбиржи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.УА_БиржевыеИнструменты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.УА_Портфели</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.УА_Индексы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УА_ЦеныИнструментов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УА_КлиентМосбиржи</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

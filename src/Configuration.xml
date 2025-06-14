@@ -32,11 +32,11 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>УправлениеПортфелями83</Name>
+			<Name>УправлениеАктивами83</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>ИИ Партнер. Управление инвестиционными портфелями</v8:content>
+					<v8:content>ИИ Партнер. Управление инвестиционными активами</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -48,8 +48,8 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
-			<Vendor/>
-			<Version/>
+			<Vendor>ИИ Партнер</Vendor>
+			<Version>0.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -257,16 +257,18 @@
 			<Language>Русский</Language>
 			<Subsystem>НСИ</Subsystem>
 			<Subsystem>Инструменты</Subsystem>
-			<CommonModule>УП_КоннекторHTTP</CommonModule>
-			<CommonModule>УП_ОбщегоНазначения</CommonModule>
-			<Catalog>УП_БиржевыеИнструменты</Catalog>
-			<Catalog>УП_Индексы</Catalog>
-			<Catalog>УП_Портфели</Catalog>
-			<Enum>УП_ТипыИндексов</Enum>
-			<DataProcessor>УП_ЗагрузчикПортфеля</DataProcessor>
-			<DataProcessor>УП_КлиентМосбиржи</DataProcessor>
-			<DataProcessor>УП_ПолучитьИндекс</DataProcessor>
-			<InformationRegister>УП_ЦеныИнструментов</InformationRegister>
+			<Role>УА_ОсновнаяРоль</Role>
+			<CommonModule>УА_Константы</CommonModule>
+			<CommonModule>УА_КоннекторHTTP</CommonModule>
+			<CommonModule>УА_ОбщегоНазначения</CommonModule>
+			<Catalog>УА_БиржевыеИнструменты</Catalog>
+			<Catalog>УА_Индексы</Catalog>
+			<Catalog>УА_Портфели</Catalog>
+			<Enum>УА_ТипыИндексов</Enum>
+			<DataProcessor>УА_ЗагрузчикПортфеля</DataProcessor>
+			<DataProcessor>УА_КлиентМосбиржи</DataProcessor>
+			<DataProcessor>УА_ПолучитьИндекс</DataProcessor>
+			<InformationRegister>УА_ЦеныИнструментов</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

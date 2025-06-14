@@ -139,6 +139,13 @@
 					<ContextMenu name="ИтоговаяТаблицаВесВПортфелеКонтекстноеМеню" id="38"/>
 					<ExtendedTooltip name="ИтоговаяТаблицаВесВПортфелеРасширеннаяПодсказка" id="39"/>
 				</InputField>
+				<InputField name="ИтоговаяТаблицаОтклонениеВеса" id="70">
+					<DataPath>ИтоговаяТаблица.ОтклонениеВеса</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ИтоговаяТаблицаОтклонениеВесаКонтекстноеМеню" id="71"/>
+					<ExtendedTooltip name="ИтоговаяТаблицаОтклонениеВесаРасширеннаяПодсказка" id="72"/>
+				</InputField>
 			</ChildItems>
 		</Table>
 		<UsualGroup name="ГруппаНижняяПанель" id="52">
@@ -292,6 +299,22 @@
 							<v8:Digits>10</v8:Digits>
 							<v8:FractionDigits>2</v8:FractionDigits>
 							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ОтклонениеВеса" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отклонение веса</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
 				</Column>

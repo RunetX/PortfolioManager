@@ -267,7 +267,7 @@
 			<Enum>УА_ТипыИндексов</Enum>
 			<DataProcessor>УА_ЗагрузчикПортфеля</DataProcessor>
 			<DataProcessor>УА_КлиентМосбиржи</DataProcessor>
-			<DataProcessor>УА_ПолучитьИндекс</DataProcessor>
+			<DataProcessor>УА_ПомощникРебалансировки</DataProcessor>
 			<InformationRegister>УА_ЦеныИнструментов</InformationRegister>
 		</ChildObjects>
 	</Configuration>

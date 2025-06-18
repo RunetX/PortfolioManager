@@ -20,7 +20,7 @@
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УА_ЗагрузчикПортфеля</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УА_ПолучитьИндекс</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УА_ПомощникРебалансировки</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

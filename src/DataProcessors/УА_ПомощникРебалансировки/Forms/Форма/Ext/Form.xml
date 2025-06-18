@@ -240,6 +240,7 @@
 					<ChildItems>
 						<Table name="ТаблицаОпераций" id="92">
 							<Representation>List</Representation>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -385,7 +386,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:DataProcessorObject.УА_ПолучитьИндекс</v8:Type>
+				<v8:Type>cfg:DataProcessorObject.УА_ПомощникРебалансировки</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>

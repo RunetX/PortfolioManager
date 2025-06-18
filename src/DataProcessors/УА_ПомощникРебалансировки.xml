@@ -2,26 +2,26 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<DataProcessor uuid="64d9ad50-36a0-488e-baf7-bf2780002967">
 		<InternalInfo>
-			<xr:GeneratedType name="DataProcessorObject.УА_ПолучитьИндекс" category="Object">
+			<xr:GeneratedType name="DataProcessorObject.УА_ПомощникРебалансировки" category="Object">
 				<xr:TypeId>d4513bc5-a1de-4cbe-8edf-dc31f20e297e</xr:TypeId>
 				<xr:ValueId>b2a51ce5-92e1-42b3-8483-d4a91d86251a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DataProcessorManager.УА_ПолучитьИндекс" category="Manager">
+			<xr:GeneratedType name="DataProcessorManager.УА_ПомощникРебалансировки" category="Manager">
 				<xr:TypeId>fcb608e8-46f6-4eba-a9d6-4a076378763c</xr:TypeId>
 				<xr:ValueId>0e65d55b-acfa-438f-9c96-677780a1b862</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>УА_ПолучитьИндекс</Name>
+			<Name>УА_ПомощникРебалансировки</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Получить индекс</v8:content>
+					<v8:content>Помощник ребалансировки</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm>DataProcessor.УА_ПолучитьИндекс.Form.Форма</DefaultForm>
+			<DefaultForm>DataProcessor.УА_ПомощникРебалансировки.Form.Форма</DefaultForm>
 			<AuxiliaryForm/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<ExtendedPresentation/>
